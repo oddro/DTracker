@@ -8,48 +8,55 @@
 // -----------------------------------------------------------------------
 
 #import "AppDelegate.h"
-#import "IntroScene.h"
-#import "HelloWorldScene.h"
 
 @implementation AppDelegate
 
-// 
--(BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-	// This is the only app delegate method you need to implement when inheriting from CCAppDelegate.
-	// This method is a good place to add one time setup code that only runs when your app is first launched.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+	dashboard  = [[dashboardViewController alloc]init];
 	
-	// Setup Cocos2D with reasonable defaults for everything.
-	// There are a number of simple options you can change.
-	// If you want more flexibility, you can configure Cocos2D yourself instead of calling setupCocos2dWithOptions:.
-	[self setupCocos2dWithOptions:@{
-		// Show the FPS and draw call label.
-		CCSetupShowDebugStats: @(YES),
-		
-		// More examples of options you might want to fiddle with:
-		// (See CCAppDelegate.h for more information)
-		
-		// Use a 16 bit color buffer: 
-//		CCSetupPixelFormat: kEAGLColorFormatRGB565,
-		// Use a simplified coordinate system that is shared across devices.
-//		CCSetupScreenMode: CCScreenModeFixed,
-		// Run in portrait mode.
-//		CCSetupScreenOrientation: CCScreenOrientationPortrait,
-		// Run at a reduced framerate.
-//		CCSetupAnimationInterval: @(1.0/30.0),
-		// Run the fixed timestep extra fast.
-//		CCSetupFixedUpdateInterval: @(1.0/180.0),
-		// Make iPad's act like they run at a 2x content scale. (iPad retina 4x)
-//		CCSetupTabletScale2X: @(YES),
-	}];
+	UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:dashboard];
+	nav.navigationBar.tintColor = [UIColor whiteColor];
+	[nav.navigationBar setBackgroundImage:[UIImage imageNamed:@"navbar"] forBarMetrics:UIBarMetricsDefault];
+	// Override point for customization after application launch.
+    
+	self.window.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"main-bg"]];
+    
+	self.window.rootViewController = nav;
 	
+	[self.window makeKeyAndVisible];
+    
 	return YES;
 }
 
--(CCScene *)startScene
+- (void)applicationWillResignActive:(UIApplication *)application
 {
-	// This method should return the very first scene to be run when your app starts.
-	return [IntroScene scene];
+	// Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
+	// Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
+}
+
+- (void)applicationDidEnterBackground:(UIApplication *)application
+{
+	// Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
+	// If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+}
+
+- (void)applicationWillEnterForeground:(UIApplication *)application
+{
+	// Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
+}
+
+- (void)applicationDidBecomeActive:(UIApplication *)application
+{
+	// Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+}
+
+- (void)applicationWillTerminate:(UIApplication *)application
+{
+	// Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
 @end

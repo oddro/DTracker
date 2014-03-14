@@ -7,7 +7,13 @@
 //
 // -----------------------------------------------------------------------
 
-#import "cocos2d.h"
+#import <UIKit/UIKit.h>
+#import "dashboardViewController.h"
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
+{
+	dashboardViewController *dashboard;
+}
+-(void)shared;
+@property (strong, nonatomic) UIWindow *window;
 
-@interface AppDelegate : CCAppDelegate
 @end

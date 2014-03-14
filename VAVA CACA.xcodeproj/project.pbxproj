@@ -210,8 +210,14 @@
 		D05666AB18D335880098E526 /* LICENSE_Chipmunk.txt in Resources */ = {isa = PBXBuildFile; fileRef = D05666AA18D335880098E526 /* LICENSE_Chipmunk.txt */; };
 		D05666AF18D335880098E526 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D05666AE18D335880098E526 /* main.m */; };
 		D05666B318D335880098E526 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D05666B218D335880098E526 /* AppDelegate.m */; };
-		D05666B618D335880098E526 /* HelloWorldScene.m in Sources */ = {isa = PBXBuildFile; fileRef = D05666B518D335880098E526 /* HelloWorldScene.m */; };
-		D05666B918D335880098E526 /* IntroScene.m in Sources */ = {isa = PBXBuildFile; fileRef = D05666B818D335880098E526 /* IntroScene.m */; };
+		D05666C318D3364B0098E526 /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D05666C218D3364B0098E526 /* Images-2.xcassets */; };
+		D056674A18D337F40098E526 /* dashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D056674918D337F40098E526 /* dashboardViewController.m */; };
+		D056674C18D33DB90098E526 /* navbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D056674B18D33DB90098E526 /* navbar@2x.png */; };
+		D056674E18D33FDF0098E526 /* main-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D056674D18D33FDF0098E526 /* main-bg@2x.png */; };
+		D056675618D350520098E526 /* JJMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D056675118D350520098E526 /* JJMenuButton.m */; };
+		D056675718D350520098E526 /* JJMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D056675318D350520098E526 /* JJMenuItem.m */; };
+		D056675818D350520098E526 /* JJTopMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D056675518D350520098E526 /* JJTopMenuViewController.m */; };
+		D056675A18D358820098E526 /* slide-dashboard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D056675918D358820098E526 /* slide-dashboard@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -649,10 +655,18 @@
 		D05666AE18D335880098E526 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Supporting Files/main.m"; sourceTree = "<group>"; };
 		D05666B118D335880098E526 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		D05666B218D335880098E526 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
-		D05666B418D335880098E526 /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
-		D05666B518D335880098E526 /* HelloWorldScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HelloWorldScene.m; path = Classes/HelloWorldScene.m; sourceTree = "<group>"; };
-		D05666B718D335880098E526 /* IntroScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IntroScene.h; path = Classes/IntroScene.h; sourceTree = "<group>"; };
-		D05666B818D335880098E526 /* IntroScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = IntroScene.m; path = Classes/IntroScene.m; sourceTree = "<group>"; };
+		D05666C218D3364B0098E526 /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
+		D056674818D337F40098E526 /* dashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dashboardViewController.h; sourceTree = "<group>"; };
+		D056674918D337F40098E526 /* dashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dashboardViewController.m; sourceTree = "<group>"; };
+		D056674B18D33DB90098E526 /* navbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navbar@2x.png"; sourceTree = "<group>"; };
+		D056674D18D33FDF0098E526 /* main-bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main-bg@2x.png"; sourceTree = "<group>"; };
+		D056675018D350520098E526 /* JJMenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJMenuButton.h; sourceTree = "<group>"; };
+		D056675118D350520098E526 /* JJMenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJMenuButton.m; sourceTree = "<group>"; };
+		D056675218D350520098E526 /* JJMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJMenuItem.h; sourceTree = "<group>"; };
+		D056675318D350520098E526 /* JJMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJMenuItem.m; sourceTree = "<group>"; };
+		D056675418D350520098E526 /* JJTopMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJTopMenuViewController.h; sourceTree = "<group>"; };
+		D056675518D350520098E526 /* JJTopMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJTopMenuViewController.m; sourceTree = "<group>"; };
+		D056675918D358820098E526 /* slide-dashboard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slide-dashboard@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -713,9 +727,11 @@
 		D056642118D335830098E526 /* VAVA CACA */ = {
 			isa = PBXGroup;
 			children = (
+				D056674318D337B90098E526 /* app */,
 				D056642218D335830098E526 /* Resources */,
 				D056644B18D335830098E526 /* Libraries */,
 				D05666B018D335880098E526 /* Classes */,
+				D05666C218D3364B0098E526 /* Images-2.xcassets */,
 				D05666AC18D335880098E526 /* Supporting Files */,
 			);
 			path = "VAVA CACA";
@@ -724,6 +740,7 @@
 		D056642218D335830098E526 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D056674718D337CC0098E526 /* assets */,
 				D056642318D335830098E526 /* Default.png */,
 				D056642518D335830098E526 /* Default@2x.png */,
 				D056642718D335830098E526 /* Default-568h@2x.png */,
@@ -759,6 +776,7 @@
 		D056644B18D335830098E526 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				D056674F18D350520098E526 /* JJTopMenuClasses */,
 				D056657E18D335860098E526 /* LICENSE_cocos2d.txt */,
 				D056662518D335870098E526 /* LICENSE_Kazmath.txt */,
 				D056663C18D335870098E526 /* LICENSE_CCBReader.txt */,
@@ -1542,12 +1560,65 @@
 			children = (
 				D05666B118D335880098E526 /* AppDelegate.h */,
 				D05666B218D335880098E526 /* AppDelegate.m */,
-				D05666B418D335880098E526 /* HelloWorldScene.h */,
-				D05666B518D335880098E526 /* HelloWorldScene.m */,
-				D05666B718D335880098E526 /* IntroScene.h */,
-				D05666B818D335880098E526 /* IntroScene.m */,
 			);
 			name = Classes;
+			sourceTree = "<group>";
+		};
+		D056674318D337B90098E526 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				D056674418D337B90098E526 /* helper */,
+				D056674518D337B90098E526 /* view */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		D056674418D337B90098E526 /* helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = helper;
+			sourceTree = "<group>";
+		};
+		D056674518D337B90098E526 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				D056674618D337B90098E526 /* dashboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		D056674618D337B90098E526 /* dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				D056674818D337F40098E526 /* dashboardViewController.h */,
+				D056674918D337F40098E526 /* dashboardViewController.m */,
+			);
+			path = dashboard;
+			sourceTree = "<group>";
+		};
+		D056674718D337CC0098E526 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				D056675918D358820098E526 /* slide-dashboard@2x.png */,
+				D056674D18D33FDF0098E526 /* main-bg@2x.png */,
+				D056674B18D33DB90098E526 /* navbar@2x.png */,
+			);
+			name = assets;
+			path = Resources/assets;
+			sourceTree = "<group>";
+		};
+		D056674F18D350520098E526 /* JJTopMenuClasses */ = {
+			isa = PBXGroup;
+			children = (
+				D056675018D350520098E526 /* JJMenuButton.h */,
+				D056675118D350520098E526 /* JJMenuButton.m */,
+				D056675218D350520098E526 /* JJMenuItem.h */,
+				D056675318D350520098E526 /* JJMenuItem.m */,
+				D056675418D350520098E526 /* JJTopMenuViewController.h */,
+				D056675518D350520098E526 /* JJTopMenuViewController.m */,
+			);
+			path = JJTopMenuClasses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1621,6 +1692,7 @@
 				D056642618D335830098E526 /* Default@2x.png in Resources */,
 				D056643918D335830098E526 /* Icon-120.png in Resources */,
 				D056663D18D335870098E526 /* LICENSE_CCBReader.txt in Resources */,
+				D05666C318D3364B0098E526 /* Images-2.xcassets in Resources */,
 				D056642F18D335830098E526 /* Icon@2x.png in Resources */,
 				D056644118D335830098E526 /* Icon-Small@2x.png in Resources */,
 				D056643318D335830098E526 /* Icon-72@2x.png in Resources */,
@@ -1636,10 +1708,13 @@
 				D056642818D335830098E526 /* Default-568h@2x.png in Resources */,
 				D056644818D335830098E526 /* iTunesArtwork in Resources */,
 				D056644318D335830098E526 /* Icon-Spotlight-iOS7.png in Resources */,
+				D056674E18D33FDF0098E526 /* main-bg@2x.png in Resources */,
 				D056643718D335830098E526 /* Icon-76@2x.png in Resources */,
 				D05666AB18D335880098E526 /* LICENSE_Chipmunk.txt in Resources */,
 				D056644518D335830098E526 /* Icon-Spotlight-iOS7@2x.png in Resources */,
+				D056674C18D33DB90098E526 /* navbar@2x.png in Resources */,
 				D056643518D335830098E526 /* Icon-76.png in Resources */,
+				D056675A18D358820098E526 /* slide-dashboard@2x.png in Resources */,
 				D056660B18D335870098E526 /* ChangeLog in Resources */,
 				D056644A18D335830098E526 /* iTunesArtwork@2x in Resources */,
 			);
@@ -1667,6 +1742,7 @@
 				D05664DD18D335850098E526 /* CCResponder.m in Sources */,
 				D056647418D335840098E526 /* CCClippingNode.m in Sources */,
 				D056650718D335850098E526 /* CCSpriteBatchNode.m in Sources */,
+				D056674A18D337F40098E526 /* dashboardViewController.m in Sources */,
 				D056652B18D335850098E526 /* CCTransition.m in Sources */,
 				D056650A18D335850098E526 /* CCSpriteFrame.m in Sources */,
 				D056649E18D335840098E526 /* CCNodeColor.m in Sources */,
@@ -1678,6 +1754,7 @@
 				D05665AA18D335860098E526 /* ALContext.m in Sources */,
 				D056648618D335840098E526 /* CCDrawNode.m in Sources */,
 				D056655718D335850098E526 /* CCFileUtils.m in Sources */,
+				D056675818D350520098E526 /* JJTopMenuViewController.m in Sources */,
 				D05665DA18D335860098E526 /* OALTools.m in Sources */,
 				D056649018D335840098E526 /* ccGLStateCache.m in Sources */,
 				D056658818D335860098E526 /* OALActionManager.m in Sources */,
@@ -1705,9 +1782,9 @@
 				D056656518D335850098E526 /* CCVertex.m in Sources */,
 				D05665A118D335860098E526 /* ALBuffer.m in Sources */,
 				D056656E18D335860098E526 /* NSThread+performBlock.m in Sources */,
+				D056675618D350520098E526 /* JJMenuButton.m in Sources */,
 				D05664F918D335850098E526 /* CCShaderCache.m in Sources */,
 				D056663618D335870098E526 /* CCBSequenceProperty.m in Sources */,
-				D05666B918D335880098E526 /* IntroScene.m in Sources */,
 				D056653D18D335850098E526 /* CCGLView.m in Sources */,
 				D056650018D335850098E526 /* CCSprite.m in Sources */,
 				D056645C18D335840098E526 /* CCActionInterval.m in Sources */,
@@ -1747,7 +1824,6 @@
 				D05664FC18D335850098E526 /* ccShaders.m in Sources */,
 				D056661018D335870098E526 /* matrix.c in Sources */,
 				D056652218D335850098E526 /* CCTiledMapLayer.m in Sources */,
-				D05666B618D335880098E526 /* HelloWorldScene.m in Sources */,
 				D056661618D335870098E526 /* neon_matrix_impl.c in Sources */,
 				D056649B18D335840098E526 /* CCLabelTTF.m in Sources */,
 				D056655018D335850098E526 /* NSEvent+CC.m in Sources */,
@@ -1767,6 +1843,7 @@
 				D056645318D335830098E526 /* CCActionCatmullRom.m in Sources */,
 				D056656B18D335860098E526 /* NSAttributedString+CCAdditions.m in Sources */,
 				D056662D18D335870098E526 /* CCBKeyframe.m in Sources */,
+				D056675718D350520098E526 /* JJMenuItem.m in Sources */,
 				D05665E718D335860098E526 /* CCControlTextureFactory.m in Sources */,
 				D056646C18D335840098E526 /* CCAnimationCache.m in Sources */,
 				D05665F018D335870098E526 /* CCTableView.m in Sources */,
@@ -1925,6 +2002,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1950,6 +2029,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VAVA CACA/Supporting Files/Prefix.pch";
