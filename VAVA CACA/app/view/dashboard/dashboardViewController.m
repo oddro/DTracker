@@ -7,7 +7,7 @@
 //
 
 #import "dashboardViewController.h"
-
+#import "DashboardTableViewCell.h"
 @interface dashboardViewController ()
 
 @end
@@ -41,6 +41,7 @@
 		
 		table.separatorStyle = UITableViewCellSeparatorStyleNone;
 		
+		book = [[Book_ContentViewController alloc]init];
 		[self.view addSubview:table];
     }
 	
@@ -54,7 +55,10 @@
 {
     return 1;
 }
+-(CGFloat )tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
 
+	return 723.5;
+}
 // number of row in the section, I assume there is only 1 row
 - (NSInteger)tableView:(UITableView *)theTableView numberOfRowsInSection:(NSInteger)section
 {
@@ -67,14 +71,19 @@
     static NSString *cellIdentifier = @"HistoryCell";
 	
     // Similar to UITableViewCell, but
-    UITableViewCell *cell = (UITableViewCell *)[theTableView dequeueReusableCellWithIdentifier:cellIdentifier];
+    DashboardTableViewCell *cell = (DashboardTableViewCell *)[theTableView dequeueReusableCellWithIdentifier:cellIdentifier];
     if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
+        cell = [[DashboardTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
     }
-	 cell.backgroundColor = [UIColor clearColor];
-    // Just want to test, so I hardcode the data
-    cell.textLabel.text = @"Testing";
+	cell.selectionStyle = UITableViewCellSelectionStyleNone;
 	
+	cell.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"dock"]];
+	
+	[cell.image setImage:[UIImage imageNamed:@"book-baronngsai"]];
+	
+	cell.excerpt.text = @"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text";
+	
+	[cell.excerpt sizeToFit];
     return cell;
 }
 
@@ -82,11 +91,20 @@
 // when user tap the row, what action you want to perform
 - (void)tableView:(UITableView *)theTableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+	[self.navigationController pushViewController:book animated:YES];
     NSLog(@"selected %ld row", (long)indexPath.row);
 }
 - (void)viewDidLoad
 {
-	
+	for (NSString* family in [UIFont familyNames])
+	{
+		NSLog(@"%@", family);
+        
+		for (NSString* name in [UIFont fontNamesForFamilyName: family])
+		{
+			NSLog(@"  %@", name);
+		}
+	}
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
@@ -97,15 +115,6 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

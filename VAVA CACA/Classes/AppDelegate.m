@@ -22,7 +22,15 @@
 	nav.navigationBar.tintColor = [UIColor whiteColor];
 	[nav.navigationBar setBackgroundImage:[UIImage imageNamed:@"navbar"] forBarMetrics:UIBarMetricsDefault];
 	// Override point for customization after application launch.
-    
+    [[UIBarButtonItem appearance] setBackButtonTitlePositionAdjustment:UIOffsetMake(-200.f, 0) forBarMetrics:UIBarMetricsDefault];
+	NSShadow *shadow = [[NSShadow alloc] init];
+    shadow.shadowColor = [UIColor colorWithRed:0.722 green:0.722 blue:0.722 alpha:1];
+    shadow.shadowOffset = CGSizeMake(0.5, 0.5);
+    [[UINavigationBar appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys:
+                                                           [UIColor blackColor], NSForegroundColorAttributeName,
+                                                           shadow, NSShadowAttributeName,
+                                                           [UIFont fontWithName:defaultFont size:29], NSFontAttributeName, nil]];
+
 	self.window.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"main-bg"]];
     
 	self.window.rootViewController = nav;

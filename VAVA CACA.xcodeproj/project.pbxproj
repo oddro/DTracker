@@ -218,6 +218,12 @@
 		D056675718D350520098E526 /* JJMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D056675318D350520098E526 /* JJMenuItem.m */; };
 		D056675818D350520098E526 /* JJTopMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D056675518D350520098E526 /* JJTopMenuViewController.m */; };
 		D056675A18D358820098E526 /* slide-dashboard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D056675918D358820098E526 /* slide-dashboard@2x.png */; };
+		D056675C18D35B7C0098E526 /* dock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D056675B18D35B7C0098E526 /* dock@2x.png */; };
+		D056675F18D35E830098E526 /* DashboardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D056675E18D35E830098E526 /* DashboardTableViewCell.m */; };
+		D056676118D362240098E526 /* book-baronngsai@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D056676018D362240098E526 /* book-baronngsai@2x.png */; };
+		D056676418D366CC0098E526 /* apple_casual.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D056676318D366CC0098E526 /* apple_casual.ttf */; };
+		D0D677C018D3F53700397BE3 /* netraGlobalHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D677BF18D3F53700397BE3 /* netraGlobalHelper.m */; };
+		D0D677C418D40C9400397BE3 /* Book-ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D677C318D40C9400397BE3 /* Book-ContentViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -667,6 +673,15 @@
 		D056675418D350520098E526 /* JJTopMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJTopMenuViewController.h; sourceTree = "<group>"; };
 		D056675518D350520098E526 /* JJTopMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJTopMenuViewController.m; sourceTree = "<group>"; };
 		D056675918D358820098E526 /* slide-dashboard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slide-dashboard@2x.png"; sourceTree = "<group>"; };
+		D056675B18D35B7C0098E526 /* dock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dock@2x.png"; sourceTree = "<group>"; };
+		D056675D18D35E830098E526 /* DashboardTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashboardTableViewCell.h; sourceTree = "<group>"; };
+		D056675E18D35E830098E526 /* DashboardTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashboardTableViewCell.m; sourceTree = "<group>"; };
+		D056676018D362240098E526 /* book-baronngsai@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "book-baronngsai@2x.png"; sourceTree = "<group>"; };
+		D056676318D366CC0098E526 /* apple_casual.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = apple_casual.ttf; sourceTree = "<group>"; };
+		D0D677BE18D3F53700397BE3 /* netraGlobalHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = netraGlobalHelper.h; sourceTree = "<group>"; };
+		D0D677BF18D3F53700397BE3 /* netraGlobalHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = netraGlobalHelper.m; sourceTree = "<group>"; };
+		D0D677C218D40C9400397BE3 /* Book-ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Book-ContentViewController.h"; sourceTree = "<group>"; };
+		D0D677C318D40C9400397BE3 /* Book-ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Book-ContentViewController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -740,6 +755,7 @@
 		D056642218D335830098E526 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D056676218D366CC0098E526 /* font */,
 				D056674718D337CC0098E526 /* assets */,
 				D056642318D335830098E526 /* Default.png */,
 				D056642518D335830098E526 /* Default@2x.png */,
@@ -1576,6 +1592,8 @@
 		D056674418D337B90098E526 /* helper */ = {
 			isa = PBXGroup;
 			children = (
+				D0D677BE18D3F53700397BE3 /* netraGlobalHelper.h */,
+				D0D677BF18D3F53700397BE3 /* netraGlobalHelper.m */,
 			);
 			path = helper;
 			sourceTree = "<group>";
@@ -1583,6 +1601,7 @@
 		D056674518D337B90098E526 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				D0D677C118D40C7600397BE3 /* book-content */,
 				D056674618D337B90098E526 /* dashboard */,
 			);
 			path = view;
@@ -1593,6 +1612,8 @@
 			children = (
 				D056674818D337F40098E526 /* dashboardViewController.h */,
 				D056674918D337F40098E526 /* dashboardViewController.m */,
+				D056675D18D35E830098E526 /* DashboardTableViewCell.h */,
+				D056675E18D35E830098E526 /* DashboardTableViewCell.m */,
 			);
 			path = dashboard;
 			sourceTree = "<group>";
@@ -1600,6 +1621,8 @@
 		D056674718D337CC0098E526 /* assets */ = {
 			isa = PBXGroup;
 			children = (
+				D056676018D362240098E526 /* book-baronngsai@2x.png */,
+				D056675B18D35B7C0098E526 /* dock@2x.png */,
 				D056675918D358820098E526 /* slide-dashboard@2x.png */,
 				D056674D18D33FDF0098E526 /* main-bg@2x.png */,
 				D056674B18D33DB90098E526 /* navbar@2x.png */,
@@ -1619,6 +1642,24 @@
 				D056675518D350520098E526 /* JJTopMenuViewController.m */,
 			);
 			path = JJTopMenuClasses;
+			sourceTree = "<group>";
+		};
+		D056676218D366CC0098E526 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				D056676318D366CC0098E526 /* apple_casual.ttf */,
+			);
+			name = font;
+			path = Resources/font;
+			sourceTree = "<group>";
+		};
+		D0D677C118D40C7600397BE3 /* book-content */ = {
+			isa = PBXGroup;
+			children = (
+				D0D677C218D40C9400397BE3 /* Book-ContentViewController.h */,
+				D0D677C318D40C9400397BE3 /* Book-ContentViewController.m */,
+			);
+			path = "book-content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1689,12 +1730,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D056676418D366CC0098E526 /* apple_casual.ttf in Resources */,
 				D056642618D335830098E526 /* Default@2x.png in Resources */,
 				D056643918D335830098E526 /* Icon-120.png in Resources */,
 				D056663D18D335870098E526 /* LICENSE_CCBReader.txt in Resources */,
 				D05666C318D3364B0098E526 /* Images-2.xcassets in Resources */,
 				D056642F18D335830098E526 /* Icon@2x.png in Resources */,
 				D056644118D335830098E526 /* Icon-Small@2x.png in Resources */,
+				D056675C18D35B7C0098E526 /* dock@2x.png in Resources */,
 				D056643318D335830098E526 /* Icon-72@2x.png in Resources */,
 				D056642418D335830098E526 /* Default.png in Resources */,
 				D056642D18D335830098E526 /* Icon.png in Resources */,
@@ -1711,6 +1754,7 @@
 				D056674E18D33FDF0098E526 /* main-bg@2x.png in Resources */,
 				D056643718D335830098E526 /* Icon-76@2x.png in Resources */,
 				D05666AB18D335880098E526 /* LICENSE_Chipmunk.txt in Resources */,
+				D056676118D362240098E526 /* book-baronngsai@2x.png in Resources */,
 				D056644518D335830098E526 /* Icon-Spotlight-iOS7@2x.png in Resources */,
 				D056674C18D33DB90098E526 /* navbar@2x.png in Resources */,
 				D056643518D335830098E526 /* Icon-76.png in Resources */,
@@ -1751,11 +1795,13 @@
 				D056654318D335850098E526 /* CCAppDelegate.m in Sources */,
 				D056654718D335850098E526 /* CCDirectorMac.m in Sources */,
 				D056647B18D335840098E526 /* ccDeprecated.m in Sources */,
+				D056675F18D35E830098E526 /* DashboardTableViewCell.m in Sources */,
 				D05665AA18D335860098E526 /* ALContext.m in Sources */,
 				D056648618D335840098E526 /* CCDrawNode.m in Sources */,
 				D056655718D335850098E526 /* CCFileUtils.m in Sources */,
 				D056675818D350520098E526 /* JJTopMenuViewController.m in Sources */,
 				D05665DA18D335860098E526 /* OALTools.m in Sources */,
+				D0D677C418D40C9400397BE3 /* Book-ContentViewController.m in Sources */,
 				D056649018D335840098E526 /* ccGLStateCache.m in Sources */,
 				D056658818D335860098E526 /* OALActionManager.m in Sources */,
 				D05664E718D335850098E526 /* CCScheduler.m in Sources */,
@@ -1827,6 +1873,7 @@
 				D056661618D335870098E526 /* neon_matrix_impl.c in Sources */,
 				D056649B18D335840098E526 /* CCLabelTTF.m in Sources */,
 				D056655018D335850098E526 /* NSEvent+CC.m in Sources */,
+				D0D677C018D3F53700397BE3 /* netraGlobalHelper.m in Sources */,
 				D05665AD18D335860098E526 /* ALDevice.m in Sources */,
 				D056662018D335870098E526 /* vec2.c in Sources */,
 				D056645018D335830098E526 /* CCAction.m in Sources */,
@@ -2070,6 +2117,7 @@
 				D05666BE18D335880098E526 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D05666BF18D335880098E526 /* Build configuration list for PBXNativeTarget "VAVA CACA" */ = {
 			isa = XCConfigurationList;
@@ -2078,6 +2126,7 @@
 				D05666C118D335880098E526 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

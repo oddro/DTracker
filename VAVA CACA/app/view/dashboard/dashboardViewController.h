@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "JJTopMenuViewController.h"
+#import "Book-ContentViewController.h"
 @interface dashboardViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
 {
 	UITableView *table;
+	Book_ContentViewController *book;
 }
 
 @end
