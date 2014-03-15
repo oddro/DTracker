@@ -224,6 +224,45 @@
 		D056676418D366CC0098E526 /* apple_casual.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D056676318D366CC0098E526 /* apple_casual.ttf */; };
 		D0D677C018D3F53700397BE3 /* netraGlobalHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D677BF18D3F53700397BE3 /* netraGlobalHelper.m */; };
 		D0D677C418D40C9400397BE3 /* Book-ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D677C318D40C9400397BE3 /* Book-ContentViewController.m */; };
+		D0D677CC18D4460300397BE3 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D0D677C618D4460300397BE3 /* libTestFlight.a */; };
+		D0D677CD18D4460300397BE3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D0D677C718D4460300397BE3 /* README.md */; };
+		D0D677CE18D4460300397BE3 /* release_notes.md in Resources */ = {isa = PBXBuildFile; fileRef = D0D677C818D4460300397BE3 /* release_notes.md */; };
+		D0D677D118D4482200397BE3 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0D677D018D4482200397BE3 /* Crashlytics.framework */; };
+		D0D6783E18D4A29B00397BE3 /* ms-01-frame1.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D6783118D4A29B00397BE3 /* ms-01-frame1.png */; };
+		D0D6783F18D4A29B00397BE3 /* ms-01-frame10.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D6783218D4A29B00397BE3 /* ms-01-frame10.png */; };
+		D0D6784018D4A29B00397BE3 /* ms-01-frame11.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D6783318D4A29B00397BE3 /* ms-01-frame11.png */; };
+		D0D6784118D4A29B00397BE3 /* ms-01-frame12.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D6783418D4A29B00397BE3 /* ms-01-frame12.png */; };
+		D0D6784218D4A29B00397BE3 /* ms-01-frame2.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D6783518D4A29B00397BE3 /* ms-01-frame2.png */; };
+		D0D6784318D4A29B00397BE3 /* ms-01-frame3.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D6783618D4A29B00397BE3 /* ms-01-frame3.png */; };
+		D0D6784418D4A29B00397BE3 /* ms-01-frame4.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D6783718D4A29B00397BE3 /* ms-01-frame4.png */; };
+		D0D6784518D4A29B00397BE3 /* ms-01-frame5.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D6783818D4A29B00397BE3 /* ms-01-frame5.png */; };
+		D0D6784618D4A29B00397BE3 /* ms-01-frame6.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D6783918D4A29B00397BE3 /* ms-01-frame6.png */; };
+		D0D6784718D4A29B00397BE3 /* ms-01-frame7.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D6783A18D4A29B00397BE3 /* ms-01-frame7.png */; };
+		D0D6784818D4A29B00397BE3 /* ms-01-frame8.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D6783B18D4A29B00397BE3 /* ms-01-frame8.png */; };
+		D0D6784918D4A29B00397BE3 /* ms-01-frame9.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D6783C18D4A29B00397BE3 /* ms-01-frame9.png */; };
+		D0D6784B18D4A2CE00397BE3 /* ms-01-frame0.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D6784A18D4A2CE00397BE3 /* ms-01-frame0.png */; };
+		D0D6785A18D4A74E00397BE3 /* vava caca - book 1 - cover (master).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0D6784D18D4A74E00397BE3 /* vava caca - book 1 - cover (master).mp3 */; };
+		D0D6785B18D4A74E00397BE3 /* vava caca - book 1 - F1 (master).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0D6784E18D4A74E00397BE3 /* vava caca - book 1 - F1 (master).mp3 */; };
+		D0D6785C18D4A74E00397BE3 /* vava caca - book 1 - F10 (master).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0D6784F18D4A74E00397BE3 /* vava caca - book 1 - F10 (master).mp3 */; };
+		D0D6785D18D4A74E00397BE3 /* vava caca - book 1 - F11 (master).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0D6785018D4A74E00397BE3 /* vava caca - book 1 - F11 (master).mp3 */; };
+		D0D6785E18D4A74E00397BE3 /* vava caca - book 1 - F12 (master).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0D6785118D4A74E00397BE3 /* vava caca - book 1 - F12 (master).mp3 */; };
+		D0D6785F18D4A74E00397BE3 /* vava caca - book 1 - F2 (master).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0D6785218D4A74E00397BE3 /* vava caca - book 1 - F2 (master).mp3 */; };
+		D0D6786018D4A74E00397BE3 /* vava caca - book 1 - F3 (master).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0D6785318D4A74E00397BE3 /* vava caca - book 1 - F3 (master).mp3 */; };
+		D0D6786118D4A74E00397BE3 /* vava caca - book 1 - F4 (master).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0D6785418D4A74E00397BE3 /* vava caca - book 1 - F4 (master).mp3 */; };
+		D0D6786218D4A74E00397BE3 /* vava caca - book 1 - F5 (master).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0D6785518D4A74E00397BE3 /* vava caca - book 1 - F5 (master).mp3 */; };
+		D0D6786318D4A74E00397BE3 /* vava caca - book 1 - F6 (master).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0D6785618D4A74E00397BE3 /* vava caca - book 1 - F6 (master).mp3 */; };
+		D0D6786418D4A74E00397BE3 /* vava caca - book 1 - F7 (master).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0D6785718D4A74E00397BE3 /* vava caca - book 1 - F7 (master).mp3 */; };
+		D0D6786518D4A74E00397BE3 /* vava caca - book 1 - F8 (master).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0D6785818D4A74E00397BE3 /* vava caca - book 1 - F8 (master).mp3 */; };
+		D0D6786618D4A74E00397BE3 /* vava caca - book 1 - F9 (master).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0D6785918D4A74E00397BE3 /* vava caca - book 1 - F9 (master).mp3 */; };
+		D0D6787118D4A76000397BE3 /* cover.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D6786818D4A76000397BE3 /* cover.png */; };
+		D0D6787218D4A76000397BE3 /* komik-frame1-edisi1.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D6786918D4A76000397BE3 /* komik-frame1-edisi1.png */; };
+		D0D6787318D4A76000397BE3 /* komik-frame2-edisi1.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D6786A18D4A76000397BE3 /* komik-frame2-edisi1.png */; };
+		D0D6787418D4A76000397BE3 /* komik-frame3-edisi1.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D6786B18D4A76000397BE3 /* komik-frame3-edisi1.png */; };
+		D0D6787518D4A76000397BE3 /* komik-frame4-edisi1.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D6786C18D4A76000397BE3 /* komik-frame4-edisi1.png */; };
+		D0D6787618D4A76000397BE3 /* komik-frame5-edisi1.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D6786D18D4A76000397BE3 /* komik-frame5-edisi1.png */; };
+		D0D6787718D4A76000397BE3 /* komik-frame6-edisi1.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D6786E18D4A76000397BE3 /* komik-frame6-edisi1.png */; };
+		D0D6787818D4A76000397BE3 /* komik-frame7-edisi1.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D6786F18D4A76000397BE3 /* komik-frame7-edisi1.png */; };
+		D0D6787918D4A76000397BE3 /* komik-frame8-edisi1.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D6787018D4A76000397BE3 /* komik-frame8-edisi1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -682,6 +721,48 @@
 		D0D677BF18D3F53700397BE3 /* netraGlobalHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = netraGlobalHelper.m; sourceTree = "<group>"; };
 		D0D677C218D40C9400397BE3 /* Book-ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Book-ContentViewController.h"; sourceTree = "<group>"; };
 		D0D677C318D40C9400397BE3 /* Book-ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Book-ContentViewController.m"; sourceTree = "<group>"; };
+		D0D677C618D4460300397BE3 /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
+		D0D677C718D4460300397BE3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		D0D677C818D4460300397BE3 /* release_notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.md; sourceTree = "<group>"; };
+		D0D677C918D4460300397BE3 /* TestFlight+AsyncLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+AsyncLogging.h"; sourceTree = "<group>"; };
+		D0D677CA18D4460300397BE3 /* TestFlight+ManualSessions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+ManualSessions.h"; sourceTree = "<group>"; };
+		D0D677CB18D4460300397BE3 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
+		D0D677D018D4482200397BE3 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		D0D6783118D4A29B00397BE3 /* ms-01-frame1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ms-01-frame1.png"; sourceTree = "<group>"; };
+		D0D6783218D4A29B00397BE3 /* ms-01-frame10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ms-01-frame10.png"; sourceTree = "<group>"; };
+		D0D6783318D4A29B00397BE3 /* ms-01-frame11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ms-01-frame11.png"; sourceTree = "<group>"; };
+		D0D6783418D4A29B00397BE3 /* ms-01-frame12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ms-01-frame12.png"; sourceTree = "<group>"; };
+		D0D6783518D4A29B00397BE3 /* ms-01-frame2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ms-01-frame2.png"; sourceTree = "<group>"; };
+		D0D6783618D4A29B00397BE3 /* ms-01-frame3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ms-01-frame3.png"; sourceTree = "<group>"; };
+		D0D6783718D4A29B00397BE3 /* ms-01-frame4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ms-01-frame4.png"; sourceTree = "<group>"; };
+		D0D6783818D4A29B00397BE3 /* ms-01-frame5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ms-01-frame5.png"; sourceTree = "<group>"; };
+		D0D6783918D4A29B00397BE3 /* ms-01-frame6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ms-01-frame6.png"; sourceTree = "<group>"; };
+		D0D6783A18D4A29B00397BE3 /* ms-01-frame7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ms-01-frame7.png"; sourceTree = "<group>"; };
+		D0D6783B18D4A29B00397BE3 /* ms-01-frame8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ms-01-frame8.png"; sourceTree = "<group>"; };
+		D0D6783C18D4A29B00397BE3 /* ms-01-frame9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ms-01-frame9.png"; sourceTree = "<group>"; };
+		D0D6784A18D4A2CE00397BE3 /* ms-01-frame0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ms-01-frame0.png"; sourceTree = "<group>"; };
+		D0D6784D18D4A74E00397BE3 /* vava caca - book 1 - cover (master).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "vava caca - book 1 - cover (master).mp3"; sourceTree = "<group>"; };
+		D0D6784E18D4A74E00397BE3 /* vava caca - book 1 - F1 (master).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "vava caca - book 1 - F1 (master).mp3"; sourceTree = "<group>"; };
+		D0D6784F18D4A74E00397BE3 /* vava caca - book 1 - F10 (master).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "vava caca - book 1 - F10 (master).mp3"; sourceTree = "<group>"; };
+		D0D6785018D4A74E00397BE3 /* vava caca - book 1 - F11 (master).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "vava caca - book 1 - F11 (master).mp3"; sourceTree = "<group>"; };
+		D0D6785118D4A74E00397BE3 /* vava caca - book 1 - F12 (master).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "vava caca - book 1 - F12 (master).mp3"; sourceTree = "<group>"; };
+		D0D6785218D4A74E00397BE3 /* vava caca - book 1 - F2 (master).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "vava caca - book 1 - F2 (master).mp3"; sourceTree = "<group>"; };
+		D0D6785318D4A74E00397BE3 /* vava caca - book 1 - F3 (master).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "vava caca - book 1 - F3 (master).mp3"; sourceTree = "<group>"; };
+		D0D6785418D4A74E00397BE3 /* vava caca - book 1 - F4 (master).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "vava caca - book 1 - F4 (master).mp3"; sourceTree = "<group>"; };
+		D0D6785518D4A74E00397BE3 /* vava caca - book 1 - F5 (master).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "vava caca - book 1 - F5 (master).mp3"; sourceTree = "<group>"; };
+		D0D6785618D4A74E00397BE3 /* vava caca - book 1 - F6 (master).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "vava caca - book 1 - F6 (master).mp3"; sourceTree = "<group>"; };
+		D0D6785718D4A74E00397BE3 /* vava caca - book 1 - F7 (master).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "vava caca - book 1 - F7 (master).mp3"; sourceTree = "<group>"; };
+		D0D6785818D4A74E00397BE3 /* vava caca - book 1 - F8 (master).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "vava caca - book 1 - F8 (master).mp3"; sourceTree = "<group>"; };
+		D0D6785918D4A74E00397BE3 /* vava caca - book 1 - F9 (master).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "vava caca - book 1 - F9 (master).mp3"; sourceTree = "<group>"; };
+		D0D6786818D4A76000397BE3 /* cover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cover.png; sourceTree = "<group>"; };
+		D0D6786918D4A76000397BE3 /* komik-frame1-edisi1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "komik-frame1-edisi1.png"; sourceTree = "<group>"; };
+		D0D6786A18D4A76000397BE3 /* komik-frame2-edisi1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "komik-frame2-edisi1.png"; sourceTree = "<group>"; };
+		D0D6786B18D4A76000397BE3 /* komik-frame3-edisi1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "komik-frame3-edisi1.png"; sourceTree = "<group>"; };
+		D0D6786C18D4A76000397BE3 /* komik-frame4-edisi1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "komik-frame4-edisi1.png"; sourceTree = "<group>"; };
+		D0D6786D18D4A76000397BE3 /* komik-frame5-edisi1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "komik-frame5-edisi1.png"; sourceTree = "<group>"; };
+		D0D6786E18D4A76000397BE3 /* komik-frame6-edisi1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "komik-frame6-edisi1.png"; sourceTree = "<group>"; };
+		D0D6786F18D4A76000397BE3 /* komik-frame7-edisi1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "komik-frame7-edisi1.png"; sourceTree = "<group>"; };
+		D0D6787018D4A76000397BE3 /* komik-frame8-edisi1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "komik-frame8-edisi1.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -691,6 +772,7 @@
 			files = (
 				D056642018D335830098E526 /* libObjectiveChipmunk.a in Frameworks */,
 				D056640E18D335830098E526 /* OpenAL.framework in Frameworks */,
+				D0D677CC18D4460300397BE3 /* libTestFlight.a in Frameworks */,
 				D056641418D335830098E526 /* UIKit.framework in Frameworks */,
 				D056640A18D335830098E526 /* QuartzCore.framework in Frameworks */,
 				D056641218D335830098E526 /* AVFoundation.framework in Frameworks */,
@@ -698,6 +780,7 @@
 				D056641A18D335830098E526 /* CoreText.framework in Frameworks */,
 				D056640C18D335830098E526 /* OpenGLES.framework in Frameworks */,
 				D056641618D335830098E526 /* Foundation.framework in Frameworks */,
+				D0D677D118D4482200397BE3 /* Crashlytics.framework in Frameworks */,
 				D056641018D335830098E526 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -726,6 +809,7 @@
 		D056640818D335830098E526 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D0D677D018D4482200397BE3 /* Crashlytics.framework */,
 				D056640918D335830098E526 /* QuartzCore.framework */,
 				D056640B18D335830098E526 /* OpenGLES.framework */,
 				D056640D18D335830098E526 /* OpenAL.framework */,
@@ -742,6 +826,7 @@
 		D056642118D335830098E526 /* VAVA CACA */ = {
 			isa = PBXGroup;
 			children = (
+				D0D677F618D4586800397BE3 /* story */,
 				D056674318D337B90098E526 /* app */,
 				D056642218D335830098E526 /* Resources */,
 				D056644B18D335830098E526 /* Libraries */,
@@ -792,6 +877,7 @@
 		D056644B18D335830098E526 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				D0D677C518D4460300397BE3 /* TestFlightSDK2.1.4 */,
 				D056674F18D350520098E526 /* JJTopMenuClasses */,
 				D056657E18D335860098E526 /* LICENSE_cocos2d.txt */,
 				D056662518D335870098E526 /* LICENSE_Kazmath.txt */,
@@ -1662,6 +1748,101 @@
 			path = "book-content";
 			sourceTree = "<group>";
 		};
+		D0D677C518D4460300397BE3 /* TestFlightSDK2.1.4 */ = {
+			isa = PBXGroup;
+			children = (
+				D0D677C618D4460300397BE3 /* libTestFlight.a */,
+				D0D677C718D4460300397BE3 /* README.md */,
+				D0D677C818D4460300397BE3 /* release_notes.md */,
+				D0D677C918D4460300397BE3 /* TestFlight+AsyncLogging.h */,
+				D0D677CA18D4460300397BE3 /* TestFlight+ManualSessions.h */,
+				D0D677CB18D4460300397BE3 /* TestFlight.h */,
+			);
+			path = TestFlightSDK2.1.4;
+			sourceTree = "<group>";
+		};
+		D0D677F618D4586800397BE3 /* story */ = {
+			isa = PBXGroup;
+			children = (
+				D0D6782E18D4A29100397BE3 /* book1 */,
+				D0D677F818D4586900397BE3 /* book2 */,
+			);
+			path = story;
+			sourceTree = "<group>";
+		};
+		D0D677F818D4586900397BE3 /* book2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = book2;
+			sourceTree = "<group>";
+		};
+		D0D6782E18D4A29100397BE3 /* book1 */ = {
+			isa = PBXGroup;
+			children = (
+				D0D6786718D4A76000397BE3 /* komik */,
+				D0D6784C18D4A74E00397BE3 /* sound main story */,
+				D0D6782F18D4A29B00397BE3 /* MainStory */,
+			);
+			path = book1;
+			sourceTree = "<group>";
+		};
+		D0D6782F18D4A29B00397BE3 /* MainStory */ = {
+			isa = PBXGroup;
+			children = (
+				D0D6784A18D4A2CE00397BE3 /* ms-01-frame0.png */,
+				D0D6783118D4A29B00397BE3 /* ms-01-frame1.png */,
+				D0D6783218D4A29B00397BE3 /* ms-01-frame10.png */,
+				D0D6783318D4A29B00397BE3 /* ms-01-frame11.png */,
+				D0D6783418D4A29B00397BE3 /* ms-01-frame12.png */,
+				D0D6783518D4A29B00397BE3 /* ms-01-frame2.png */,
+				D0D6783618D4A29B00397BE3 /* ms-01-frame3.png */,
+				D0D6783718D4A29B00397BE3 /* ms-01-frame4.png */,
+				D0D6783818D4A29B00397BE3 /* ms-01-frame5.png */,
+				D0D6783918D4A29B00397BE3 /* ms-01-frame6.png */,
+				D0D6783A18D4A29B00397BE3 /* ms-01-frame7.png */,
+				D0D6783B18D4A29B00397BE3 /* ms-01-frame8.png */,
+				D0D6783C18D4A29B00397BE3 /* ms-01-frame9.png */,
+			);
+			path = MainStory;
+			sourceTree = "<group>";
+		};
+		D0D6784C18D4A74E00397BE3 /* sound main story */ = {
+			isa = PBXGroup;
+			children = (
+				D0D6784D18D4A74E00397BE3 /* vava caca - book 1 - cover (master).mp3 */,
+				D0D6784E18D4A74E00397BE3 /* vava caca - book 1 - F1 (master).mp3 */,
+				D0D6784F18D4A74E00397BE3 /* vava caca - book 1 - F10 (master).mp3 */,
+				D0D6785018D4A74E00397BE3 /* vava caca - book 1 - F11 (master).mp3 */,
+				D0D6785118D4A74E00397BE3 /* vava caca - book 1 - F12 (master).mp3 */,
+				D0D6785218D4A74E00397BE3 /* vava caca - book 1 - F2 (master).mp3 */,
+				D0D6785318D4A74E00397BE3 /* vava caca - book 1 - F3 (master).mp3 */,
+				D0D6785418D4A74E00397BE3 /* vava caca - book 1 - F4 (master).mp3 */,
+				D0D6785518D4A74E00397BE3 /* vava caca - book 1 - F5 (master).mp3 */,
+				D0D6785618D4A74E00397BE3 /* vava caca - book 1 - F6 (master).mp3 */,
+				D0D6785718D4A74E00397BE3 /* vava caca - book 1 - F7 (master).mp3 */,
+				D0D6785818D4A74E00397BE3 /* vava caca - book 1 - F8 (master).mp3 */,
+				D0D6785918D4A74E00397BE3 /* vava caca - book 1 - F9 (master).mp3 */,
+			);
+			path = "sound main story";
+			sourceTree = "<group>";
+		};
+		D0D6786718D4A76000397BE3 /* komik */ = {
+			isa = PBXGroup;
+			children = (
+				D0D6786818D4A76000397BE3 /* cover.png */,
+				D0D6786918D4A76000397BE3 /* komik-frame1-edisi1.png */,
+				D0D6786A18D4A76000397BE3 /* komik-frame2-edisi1.png */,
+				D0D6786B18D4A76000397BE3 /* komik-frame3-edisi1.png */,
+				D0D6786C18D4A76000397BE3 /* komik-frame4-edisi1.png */,
+				D0D6786D18D4A76000397BE3 /* komik-frame5-edisi1.png */,
+				D0D6786E18D4A76000397BE3 /* komik-frame6-edisi1.png */,
+				D0D6786F18D4A76000397BE3 /* komik-frame7-edisi1.png */,
+				D0D6787018D4A76000397BE3 /* komik-frame8-edisi1.png */,
+			);
+			path = komik;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1672,6 +1853,7 @@
 				D056640218D335830098E526 /* Sources */,
 				D056640318D335830098E526 /* Frameworks */,
 				D056640418D335830098E526 /* Resources */,
+				D0D677CF18D447E300397BE3 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -1733,38 +1915,91 @@
 				D056676418D366CC0098E526 /* apple_casual.ttf in Resources */,
 				D056642618D335830098E526 /* Default@2x.png in Resources */,
 				D056643918D335830098E526 /* Icon-120.png in Resources */,
+				D0D6787218D4A76000397BE3 /* komik-frame1-edisi1.png in Resources */,
 				D056663D18D335870098E526 /* LICENSE_CCBReader.txt in Resources */,
+				D0D6784218D4A29B00397BE3 /* ms-01-frame2.png in Resources */,
+				D0D6784918D4A29B00397BE3 /* ms-01-frame9.png in Resources */,
 				D05666C318D3364B0098E526 /* Images-2.xcassets in Resources */,
 				D056642F18D335830098E526 /* Icon@2x.png in Resources */,
+				D0D6784618D4A29B00397BE3 /* ms-01-frame6.png in Resources */,
 				D056644118D335830098E526 /* Icon-Small@2x.png in Resources */,
 				D056675C18D35B7C0098E526 /* dock@2x.png in Resources */,
+				D0D6784518D4A29B00397BE3 /* ms-01-frame5.png in Resources */,
 				D056643318D335830098E526 /* Icon-72@2x.png in Resources */,
+				D0D6784818D4A29B00397BE3 /* ms-01-frame8.png in Resources */,
 				D056642418D335830098E526 /* Default.png in Resources */,
+				D0D6785A18D4A74E00397BE3 /* vava caca - book 1 - cover (master).mp3 in Resources */,
 				D056642D18D335830098E526 /* Icon.png in Resources */,
 				D056643B18D335830098E526 /* Icon-iPad-Spotlight-iOS7@2x.png in Resources */,
+				D0D6783E18D4A29B00397BE3 /* ms-01-frame1.png in Resources */,
+				D0D6785E18D4A74E00397BE3 /* vava caca - book 1 - F12 (master).mp3 in Resources */,
 				D056642A18D335830098E526 /* Default-Landscape~ipad.png in Resources */,
 				D056643F18D335830098E526 /* Icon-Small.png in Resources */,
+				D0D6787418D4A76000397BE3 /* komik-frame3-edisi1.png in Resources */,
+				D0D6784018D4A29B00397BE3 /* ms-01-frame11.png in Resources */,
+				D0D6787918D4A76000397BE3 /* komik-frame8-edisi1.png in Resources */,
 				D056643D18D335830098E526 /* Icon-Small-50.png in Resources */,
+				D0D677CE18D4460300397BE3 /* release_notes.md in Resources */,
 				D056662618D335870098E526 /* LICENSE_Kazmath.txt in Resources */,
+				D0D6787618D4A76000397BE3 /* komik-frame5-edisi1.png in Resources */,
+				D0D6787318D4A76000397BE3 /* komik-frame2-edisi1.png in Resources */,
+				D0D6783F18D4A29B00397BE3 /* ms-01-frame10.png in Resources */,
+				D0D6787118D4A76000397BE3 /* cover.png in Resources */,
 				D056643118D335830098E526 /* Icon-72.png in Resources */,
+				D0D6784B18D4A2CE00397BE3 /* ms-01-frame0.png in Resources */,
 				D056657F18D335860098E526 /* LICENSE_cocos2d.txt in Resources */,
 				D056642818D335830098E526 /* Default-568h@2x.png in Resources */,
 				D056644818D335830098E526 /* iTunesArtwork in Resources */,
+				D0D6784418D4A29B00397BE3 /* ms-01-frame4.png in Resources */,
+				D0D6785D18D4A74E00397BE3 /* vava caca - book 1 - F11 (master).mp3 in Resources */,
 				D056644318D335830098E526 /* Icon-Spotlight-iOS7.png in Resources */,
+				D0D6786118D4A74E00397BE3 /* vava caca - book 1 - F4 (master).mp3 in Resources */,
+				D0D6786418D4A74E00397BE3 /* vava caca - book 1 - F7 (master).mp3 in Resources */,
 				D056674E18D33FDF0098E526 /* main-bg@2x.png in Resources */,
+				D0D6785B18D4A74E00397BE3 /* vava caca - book 1 - F1 (master).mp3 in Resources */,
+				D0D6786518D4A74E00397BE3 /* vava caca - book 1 - F8 (master).mp3 in Resources */,
+				D0D6784318D4A29B00397BE3 /* ms-01-frame3.png in Resources */,
+				D0D6786618D4A74E00397BE3 /* vava caca - book 1 - F9 (master).mp3 in Resources */,
+				D0D6784718D4A29B00397BE3 /* ms-01-frame7.png in Resources */,
+				D0D677CD18D4460300397BE3 /* README.md in Resources */,
 				D056643718D335830098E526 /* Icon-76@2x.png in Resources */,
 				D05666AB18D335880098E526 /* LICENSE_Chipmunk.txt in Resources */,
+				D0D6787718D4A76000397BE3 /* komik-frame6-edisi1.png in Resources */,
 				D056676118D362240098E526 /* book-baronngsai@2x.png in Resources */,
+				D0D6786018D4A74E00397BE3 /* vava caca - book 1 - F3 (master).mp3 in Resources */,
+				D0D6787818D4A76000397BE3 /* komik-frame7-edisi1.png in Resources */,
+				D0D6784118D4A29B00397BE3 /* ms-01-frame12.png in Resources */,
+				D0D6785C18D4A74E00397BE3 /* vava caca - book 1 - F10 (master).mp3 in Resources */,
+				D0D6786318D4A74E00397BE3 /* vava caca - book 1 - F6 (master).mp3 in Resources */,
 				D056644518D335830098E526 /* Icon-Spotlight-iOS7@2x.png in Resources */,
 				D056674C18D33DB90098E526 /* navbar@2x.png in Resources */,
 				D056643518D335830098E526 /* Icon-76.png in Resources */,
 				D056675A18D358820098E526 /* slide-dashboard@2x.png in Resources */,
 				D056660B18D335870098E526 /* ChangeLog in Resources */,
 				D056644A18D335830098E526 /* iTunesArtwork@2x in Resources */,
+				D0D6787518D4A76000397BE3 /* komik-frame4-edisi1.png in Resources */,
+				D0D6785F18D4A74E00397BE3 /* vava caca - book 1 - F2 (master).mp3 in Resources */,
+				D0D6786218D4A74E00397BE3 /* vava caca - book 1 - F5 (master).mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D0D677CF18D447E300397BE3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Crashlytics.framework/run 4165a61ef093b00352a634db8c625bdbd68ff756 eb6ccec33a3a87d11b8db531559c5d421872993e1fe44eaff47e42ff86e26e3d";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D056640218D335830098E526 /* Sources */ = {
@@ -2052,6 +2287,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VAVA CACA/Supporting Files/Prefix.pch";
@@ -2061,6 +2300,11 @@
 					"\"$(SRCROOT)/$(PROJECT_NAME)/Libraries/Chipmunk/objectivec/include\"",
 				);
 				INFOPLIST_FILE = "VAVA CACA/Resources/Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VAVA",
+					CACA/TestFlightSDK2.1.4,
+				);
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-lsqlite3",
@@ -2079,6 +2323,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VAVA CACA/Supporting Files/Prefix.pch";
 				HEADER_SEARCH_PATHS = (
@@ -2087,6 +2335,11 @@
 					"\"$(SRCROOT)/$(PROJECT_NAME)/Libraries/Chipmunk/objectivec/include\"",
 				);
 				INFOPLIST_FILE = "VAVA CACA/Resources/Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VAVA",
+					CACA/TestFlightSDK2.1.4,
+				);
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-lsqlite3",

@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Book_ContentViewController : UIViewController
-
+@interface Book_ContentViewController : UIViewController<UIScrollViewDelegate>
+{
+	UIScrollView *scrollView;
+	UIImageView *image_loop;
+}
 @end

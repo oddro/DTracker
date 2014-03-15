@@ -62,7 +62,7 @@
 // number of row in the section, I assume there is only 1 row
 - (NSInteger)tableView:(UITableView *)theTableView numberOfRowsInSection:(NSInteger)section
 {
-    return 10;
+    return 1;
 }
 
 // the cell will be returned to the tableView
@@ -96,16 +96,7 @@
 }
 - (void)viewDidLoad
 {
-	for (NSString* family in [UIFont familyNames])
-	{
-		NSLog(@"%@", family);
-        
-		for (NSString* name in [UIFont fontNamesForFamilyName: family])
-		{
-			NSLog(@"  %@", name);
-		}
-	}
-    [super viewDidLoad];
+	    [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
 

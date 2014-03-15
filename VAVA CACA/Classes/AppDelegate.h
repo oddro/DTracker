@@ -13,7 +13,7 @@
 {
 	dashboardViewController *dashboard;
 }
--(void)shared;
+-(void)sharedplayMusic:(NSString *)path filename:(NSString *)filename;
 @property (strong, nonatomic) UIWindow *window;
 
 @end

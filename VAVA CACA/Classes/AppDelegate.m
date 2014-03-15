@@ -8,7 +8,8 @@
 // -----------------------------------------------------------------------
 
 #import "AppDelegate.h"
-
+#import "TestFlight.h"
+#import <Crashlytics/Crashlytics.h>
 @implementation AppDelegate
 
 
@@ -17,7 +18,8 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
 	dashboard  = [[dashboardViewController alloc]init];
-	
+	[TestFlight takeOff:@"d80b0fd4-648f-4377-9137-2cf373eec3e8"];
+	[Crashlytics startWithAPIKey:@"4165a61ef093b00352a634db8c625bdbd68ff756"];
 	UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:dashboard];
 	nav.navigationBar.tintColor = [UIColor whiteColor];
 	[nav.navigationBar setBackgroundImage:[UIImage imageNamed:@"navbar"] forBarMetrics:UIBarMetricsDefault];
@@ -39,7 +41,9 @@
     
 	return YES;
 }
-
+-(void)sharedplayMusic:(NSString *)path filename:(NSString *)filename{
+	
+}
 - (void)applicationWillResignActive:(UIApplication *)application
 {
 	// Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
